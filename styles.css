@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 1px #444;
+}
+nav span{
+    color: orange;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color: #444;
+}
+#Home{
+    height: 91vh;
+    padding: 20px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1723478507409-c9e41a9d2e43?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cG9ya3xlbnwwfHwwfHx8MA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Home h2{
+    font-family: 'Times New Roman', Times, serif;
+font-size: 4rem;
+color: whitesmoke;
+margin-top: 3.5 rem;
+}
+#Home p{
+color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 500pf;
+font-size: 14px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.btn{
+padding: 15px 18px;
+color: white;
+}
+.order-btn{
+background-color: orange;
+border: none;
+}
+.order-btn:hover{
+background-color: white;
+color: orange;
+cursor: pointer;
+box-shadow: 1px 2px orange;
+}
+.book-btn{
+  background-color: transparent;
+  border: 1px solid orange;  
+}
+.book-btn:hover{
+    background-color: orange;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 4px white;
+}
+#About{
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+#About img{
+width: 600px;
+height: 400px;
+border-radius: 10PX;
+}
+.Right h3{
+    font-weight: bold;
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: bottom;
+}
+.Right P{
+    width: 150PX;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 18PX;
+}
+.Right button{
+    padding: 15px 18px;
+    background-color: orange;
+    border: none;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+.Right button:hover{
+    background-color: white;
+    color: orange;
+    border: 1px solid gray;
+    cursor: pointer;
+    margin-top: 1px;
+}
+#Services h2{
+    font-weight: bold;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#Services p{
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 35px; 
+    text-align: center;
+}
+.Services-container{
+text-align: center;
+display: flex;
+justify-content: space-between;
+}
+.Free{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    padding: 100px 50px;
+}
+.Free:hover{
+    background-color: orange;
+    color: white;
+    border-radius: 20px;  
+}
+.open{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    padding: 100px 50px;
+}
+.open:hover{
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+}
+.dishes-container{
+    text-align: center;
+    display: flex;
+justify-content: center;  
+}
+.dishes{
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+    padding: 100px 50px; 
+}
+.dishes:hover{
+    background-color: orange;
+    color: white;
+    border-radius: 20px;   
+}
+.food{
+    font-size: 2rem;
+    text-align: center;
+}
+.lorem{
+    text-align: center;
+    font-size: 20px;
+}
+.pricing-cards-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+}
+
+
+
+
